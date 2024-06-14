@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single page layout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            background: #0bffca;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            width: 100px;
+            height: 50px;
+        }
+
+        header nav ul {
+            display: flex;
+            list-style: none;
+            background: #8ce6d2;
+
+
+
+        }
+
+        header nav ul li {
+            /* background: #ff0000; */
+           
+            margin:10px 40px;
+            font-size: 20px;
+            color: rgb(251, 255, 0);
+        }
+        .banner{
+            background: linear-gradient(rgb(214, 84, 84), rgb(103, 103, 255), rgb(192, 192, 97));
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+       .text{
+        height: 60px;
+        width: 50px;
+       }
+       .image img{
+        height: 300px;
+       }
+       .container{
+        background: #000;
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+    
+       }
+       .container .box img{
+        height: 100px;
+       }
+           .nepal{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #e9e8e8;
+           }
+        .nepal .logo img{
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Mountain-logo-Design-Graphics-9785421-1-1-580x435.png"
+            alt="">
+
+        <nav>
+            <ul>
+
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </nav>
+
+    </header>
+  <div class="banner">
+
+        <div class="text"><h1>hi</h1> </div>
+        <div class="image"><img src="https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/2.jpg" alt=""></div>
+  </div>
+    <hr> <hr>
+    <div class="container">
+        <div class="box"><img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" alt=""></div>
+        <div class="box"><img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" alt=""></div>
+        <div class="box"><img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" alt=""></div>
+    </div>
+    <hr>
+    <div class="nepal">
+        <div class="logo"><img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Mountain-logo-Design-Graphics-9785421-1-1-580x435.png" alt=""></div>
+        <div class="icons">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+        </div>
+    </div>
+ 
+</body>
+
+</html>
