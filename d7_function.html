@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+
+        // function is a block of code that perform specific task
+        // function is reusable for multiple values
+        // at the end of functio name, we must have to add parentthesis i.e.()
+        // while naming function avoid special character except(_), spaces,
+        //at the begining of function name, must start with alphabets
+
+        // function can be written as
+        // defining the function
+        // functon demofunction(){
+        // ...code here...
+        //}
+        //calling the funtion
+        //demofunction()
+
+        // defining the function
+            function sayHello(){
+                console .log("Hello World")
+                document.write("Hello Nepal")
+            }
+
+            // calling the function
+            sayHello()
+            // defining the function
+            function addNumber(){
+                let a=Number(prompt("enter the value of a"))
+                let b=Number(prompt("enter the value of b"))
+                let sum = a+b
+                document.write(`The sum is ${sum}.`)
+
+            }
+
+            //calling the function
+            addNumber()
+
+        //function with arguments
+        //.............................
+
+        //defining the function
+        function sumNumber(a,b){
+            document.write(`the sum is ${a+b} <br>`)
+
+        }
+
+        //calling the function
+        sumNumber(20,30)
+        // here 20 and 30 are arguments and a and b are parameter
+
+         //defining the function
+         function subNumber(a,b){
+            document.write(`the difference is ${a-b} <br>`)
+
+        }
+
+        //calling the function
+        subNumber(20,30)
+
+
+         //defining the function
+         function mulNumber(a,b){
+            document.write(`the multiplication is ${a*b} <br>`)
+
+        }
+
+        //calling the function
+        mulNumber(20,30)
+
+         //defining the function
+         function divNumber(a,b){
+            document.write(`the division is ${a/b} <br>`)
+
+        }
+
+        //calling the function
+        divNumber(20,30)
+    </script>
+</body>
+</html>
