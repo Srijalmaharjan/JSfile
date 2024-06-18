@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS</title>
+</head>
+<body>
+    <!-- events
+     ------------
+     onclick => function works on single click
+      ondblclick => function works on double click
+     onmouseover => function works on hover
+     onmouseout => function works on removing hover
+     onkeyup => funtion works on key entered
+     onkeydown => function work on key pressed
+     onchange => function work on changing values
+
+     
+    -->
+     <h1 id="name"></h1>
+     <h1 id="address"></h1>
+     <h1 id="school"></h1>
+     <h1 id="sum"></h1>
+
+    <button onclick="showName()">Show Name</button>
+    <button onclick="showAddress()">Show Address</button>
+    <button onclick="showschool()">Show School</button>
+    <button onclick="showsum()">Show Sum</button>
+    <script>
+ 
+        function showName(){
+            // notificaion
+            // alert ("Hello, my name is Srijal")
+                   let name = "Srijal"
+        
+            // document.write(`Hello, my name is ${name}. <br>`)
+            document.getElementById('name').innerHTML="Srijal"
+            
+
+        }
+        function showAddress(){
+            document.getElementById('address').innerHTML="Siddhipur"
+        }
+        function showschool(){
+            document.getElementById('school').innerHTML="Siddhimangal S.S."
+        }
+        function showsum(){
+            let a=1,b=3
+            let sum=a+b
+            document.getElementById('sum').innerHTML=(`The sum is ${sum}`)
+        }
+   
+  </script>
+</body>
+</html>
