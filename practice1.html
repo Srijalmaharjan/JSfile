@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./build.jpg" alt="" height="500px" width="400px" onmouseover="switchon()" onmouseout="switchoff()">
+    <button onclick="switchon()">switchon</button>
+    <button onclick="switchoff()">switchoff</button>
+    <script>
+        function switchon(){
+            document.querySelector('img').src="twin.jpg"
+        }
+        function switchoff(){
+            document.querySelector('img').src = "build.jpg"
+        }
+    </script>
+</body>
+</html>
