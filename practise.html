@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practiice</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .boxes{
+            font-size: 30px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div id="dd"></div>/
+        <div id="mm"></div>/
+        <div id="yy"></div>/
+    </div>
+    <button onclick="date()">date</button>
+    <script>
+       
+           let day = new Date().getDay()
+           let month = new Date().getMonth()
+           let year = new Date().getFullYear()
+
+           function date (){
+            document.getElementById('dd').innerHTML=day
+            document.getElementById('mm').innerHTML=month
+            document.getElementById('yy').innerHTML=year
+
+
+
+           }
+
+          
+
+        
+           
+
+        
+
+    </script>
+</body>
+</html>
