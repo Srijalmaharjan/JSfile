@@ -85,6 +85,32 @@ function pwvaliddate(){
     else{
         displaymsg('password is valid','passwordMsg','green')
     }
+}
+function cpwvaliddate(){
+    let password=document.getElementById('password').value
+    let cpassword =document.getElementById('cpwd').value
 
+    if (cpassword==''){
 
+        displaymsg('confirm password is mandatory','cpwdMsg','red')
+        return false
+    }
+    else if (password != cpassword){
+        displaymsg('password and confirm password must be same','cpwdMsg','red')
+        return false
+
+    }
+    else{
+        displaymsg('all ok','cpwdMsg','green')
+        return true
+    }
+
+}
+function submitform(){
+    if(fnamevaliddate()&& lnamevaliddate()&& emailvaliddate() && pwvaliddate() && cpwvaliddate()){
+        return true
+    }
+    else {
+        return false
+    }
 }
