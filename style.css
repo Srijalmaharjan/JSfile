@@ -2,7 +2,8 @@
     height: 100vh;
 }
 header{
-    background: #000;
+    background:black;
+    height: 100vh;
 }
 header .mydetails .img{
     height: 150px;
@@ -24,12 +25,49 @@ header nav ul li{
    font-size: 16px;
    
 }
-
+header .mydetails ul li:hover{
+    color: aquamarine;
+}
+header .mydetails ul li:hover i{
+    color: rgb(26, 66, 243);
+}
+main{
+   overflow: scroll;
+}
 .banner{
-    background: url(./images/medium.webp) no-repeat;
+    background: url(https://www.shutterstock.com/shutterstock/photos/2273827283/display_1500/stock-vector-vector-watercolor-art-background-old-paper-marble-stone-beige-watercolour-texture-for-cards-2273827283.jpg) no-repeat;
     height: 100vh;
     width: 100%;
     background-size: 100% 100%;
     margin-top: auto;
+    padding: 1px;
+
+
+}
+.banner h1{
+  margin-top:20% ;
+  margin-left: 10px ;
+  font-size: 60px;
+
+    
+}
+.about h1{
+    color: #000;
+    font-size: 30px;
+}
+.about hr{
+    color: aquamarine;
+}
+.about p{
+    color: black;
+}
+.about h2{
+    color: black;
+}
+.aboutdetails{
+    display: flex;
+}
+.about h3{
+    color: black;
 
 }
