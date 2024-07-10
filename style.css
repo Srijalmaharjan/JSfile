@@ -1,5 +1,6 @@
 .project{
     height: 100vh;
+    
 }
 header{
     background:black;
@@ -26,7 +27,7 @@ header nav ul li{
    
 }
 header .mydetails ul li:hover{
-    color: aquamarine;
+    color: rgb(25, 255, 178);
 }
 header .mydetails ul li:hover i{
     color: rgb(26, 66, 243);
@@ -35,7 +36,7 @@ main{
    overflow: scroll;
 }
 .banner{
-    background: url(https://www.shutterstock.com/shutterstock/photos/2273827283/display_1500/stock-vector-vector-watercolor-art-background-old-paper-marble-stone-beige-watercolour-texture-for-cards-2273827283.jpg) no-repeat;
+    background: url(https://img.freepik.com/free-vector/blue-polygonal-shapes-background_1053-434.jpg?w=740&t=st=1720591004~exp=1720591604~hmac=f8bde5d63728fe38753595506b2355cf9c85d7f9e81a1fc667a8aecc4173f292) no-repeat;
     height: 100vh;
     width: 100%;
     background-size: 100% 100%;
@@ -70,4 +71,14 @@ main{
 .about h3{
     color: black;
 
+}
+main .about  .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.skills h1{
+    color: black;
+    font-size: 30px;
 }
