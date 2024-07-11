@@ -82,3 +82,25 @@ main .about  .info{
     color: black;
     font-size: 30px;
 }
+.skills p{
+    color: black;
+}
+.example{
+    height: 5px;
+    width: 50%;
+}
+.hi{
+    height: 5px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    background-color: blue;
+    width: 70%;
+}
+.gray{
+    width: 30%;
+    background-color: gray;
+}
